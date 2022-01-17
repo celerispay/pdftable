@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Fooman\PdfCore\Block\Pdf\Column\NameAndSku" type="Boostsales\Pdftable\Block\Pdf\Column\NameAndSku"/>
+    <preference for="Fooman\PdfCore\Block\Pdf\Column\QtyDetails" type="Boostsales\Pdftable\Block\Pdf\Column\QtyDetails"/>
+    <preference for="Fooman\PdfCore\Block\Pdf\Column\QtyBackOrdered" type="Boostsales\Pdftable\Block\Pdf\Column\QtyBackOrdered"/>
+</config>
