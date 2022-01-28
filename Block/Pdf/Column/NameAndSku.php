@@ -14,6 +14,6 @@ class NameAndSku extends \Fooman\PdfCore\Block\Pdf\Column\NameAndSku
     public function getNameAndSku($row)
     {
         $orderItem = $this->getOrderItem($row);
-        return $orderItem->getName() . '<br/>' . __('Article no..:') .  $orderItem->getSku();
+        return $orderItem->getName() . '<br/>' . __('Article no.. :') .  $orderItem->getSku();
     }
 }
